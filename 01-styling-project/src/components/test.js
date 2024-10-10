@@ -1,10 +1,6 @@
-const user1 = {
-    username: 'codeBase',
-    followers: 0
-};
-
-const user2 = user1;
-user2.followers = user1.followers++;
-
-console.log(user1.followers);
-console.log(user2.followers);
+for (var i = 0; i < 3; i++) {
+    setTimeout(() => console.log(i), 1);
+  }
+  for (let j = 0; j < 3; j++) {
+    setTimeout(() => console.log(j), 1);
+  }
